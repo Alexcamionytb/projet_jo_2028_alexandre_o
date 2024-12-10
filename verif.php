@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 
 // Connexion à la base de données
 try {
-    $conn = new PDO('mysql:host=localhost;dbname=jo2028-ossant-alexandre', 'root', 'root');
+    $conn = new PDO('xxx');
     // Définir le mode d'erreur PDO pour générer des exceptions
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
